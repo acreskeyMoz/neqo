@@ -19,7 +19,7 @@ use std::fmt::{self, Debug, Display};
 use std::time::{Duration, Instant};
 
 /// The number of packets we allow to burst from the pacer.
-pub const PACING_BURST_SIZE: usize = 2;
+pub const PACING_BURST_SIZE: usize = 4;
 
 #[derive(Debug)]
 pub struct PacketSender {
