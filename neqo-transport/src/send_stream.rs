@@ -1258,7 +1258,7 @@ impl SendStream {
 
 impl ::std::fmt::Display for SendStream {
     fn fmt(&self, f: &mut ::std::fmt::Formatter) -> ::std::fmt::Result {
-        write!(f, "SendStream {}", self.stream_id)
+        write!(f, "Test SendStream {}", self.stream_id)
     }
 }
 
